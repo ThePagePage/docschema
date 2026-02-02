@@ -1,0 +1,52 @@
+{
+  "name": "docschema",
+  "version": "1.0.0",
+  "description": "Document schema extraction framework for regulated industries. Parse complex documents into versioned, comparable structured data with citation tracking and audit trails.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "eslint src/ test/",
+    "example": "node examples/basic-usage.js",
+    "example:schema": "node examples/custom-schema.js",
+    "example:compare": "node examples/document-comparison.js",
+    "example:register": "node examples/document-register.js"
+  },
+  "keywords": [
+    "document-extraction",
+    "schema-extraction",
+    "pdf-parsing",
+    "regulatory-compliance",
+    "legal-documents",
+    "pension-schemes",
+    "due-diligence",
+    "document-intelligence",
+    "llm",
+    "openai",
+    "azure",
+    "structured-data",
+    "version-control",
+    "audit-trail",
+    "citation-tracking",
+    "document-comparison"
+  ],
+  "author": "Neil Page",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThePagePage/docschema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThePagePage/docschema/issues"
+  },
+  "homepage": "https://github.com/ThePagePage/docschema#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
